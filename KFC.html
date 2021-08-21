@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="stylesheet" type="text/css" href="KFC.css">
+</head>
+<body>
+    <div class="top">
+        <img src="kfc1.png">
+    </div>
+    <div class="mid">
+        <div class="intro">Your order from KFC</div>
+        <div id="list_order">
+            <!--
+            <ul class="order">
+                <span class="name">
+                    Cánh gà chiên sml
+                </span>
+        
+                <span class="amount">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </span>
+        
+                <span class="price">
+                    <span>$7.99</span>
+                    <button>X</button>
+                </span>
+            </ul>
+            
+            <ul class="order">
+                <span class="name">
+                    Coca Cola
+                </span>
+        
+                <span class="amount">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </span>
+        
+                <span class="price">
+                    <span>$20</span>
+                    <button>X</button>
+                </span>
+            </ul>
+            -->
+        </div>
+        <button class="bt_add" id="bt_add" onclick="add_item()">Add a beverage</button>
+        <div class="end">
+            <p>Subtotal <span id="sub">$0</span></p>
+            <p>Shipping <span>$2</span></p>
+            <p>Total(TVA incl.) <span id="total">$2</span></p>
+    
+        </div>
+        <div class="bt_order"><button>Checkout</button></div>
+    </div>    
+
+    <script type="text/javascript" src="KFC.js"></script>
+</body>
+</html>

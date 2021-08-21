@@ -1,0 +1,100 @@
+body{
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    margin: 150px auto;
+
+}
+.top{
+    background-color: red;
+    position: relative;
+    height: 8rem;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    box-shadow: 2px 0px 0px 0px rgb(143, 138, 138) ;
+}
+.top img{
+    margin-top: 50px;
+    position: relative;
+    width: 20%;
+    border-radius: 8rem 8rem 0px 0px;
+}
+.mid{
+    border-radius: 0px 0px 10px 10px;
+    height: auto;
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 2px 2px 2px 0px rgb(143, 138, 138) ;
+}   
+.intro{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.order{
+    display: flex;
+}
+.name{
+    flex-basis: 12.5rem;
+    font-size: 20px;
+}
+.item-amount{
+    flex-basis: 30px;
+}
+.amount button{
+    width: 2rem;
+    height: 1.5rem;
+}
+.price{
+    margin-left: auto;
+    margin-right: 3rem;
+    font-size: 20px;
+}
+.amount input{
+    width: 6rem;
+    height: 1.3rem;
+    text-align: center;
+}
+.bt_add{
+    background-color: white;
+    height: 3rem;
+    width: 15rem;
+    border-color: rgb(194, 181, 181) ;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: auto;
+}
+.end{
+    background-color: gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.end span{
+    float: right;
+    padding-right: 2rem;
+}
+.bt_order{
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.bt_order button{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: red;
+    border-radius: 7px;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    box-shadow: 2px 2px 0px 0px #928989;
+}
